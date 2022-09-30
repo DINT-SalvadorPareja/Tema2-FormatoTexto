@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tema2_FormatoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_FormatoTexto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="234.073" Width="604.032">
+    <Grid>
+        <TextBox x:Name="CajaTextoInputTextBox" HorizontalAlignment="Left" Height="76" Margin="28,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" TextChanged="CajaTextoInputTextBoxChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top"/>
+        <CheckBox x:Name="NegritaCheckBox" Content="Negrita" HorizontalAlignment="Left" Margin="230,26,0,0" VerticalAlignment="Top" Checked="NegritaCheckBoxChecked" Unchecked="NegritaCheckBoxUnchecked"/>
+        <CheckBox x:Name="CursivaCheckBox" Content="Cursiva" HorizontalAlignment="Left" Margin="311,26,0,0" VerticalAlignment="Top" Checked="CursivaCheckBoxChecked" Unchecked="CursivaCheckBoxUnchecked"/>
+        <RadioButton x:Name="AzulRadioButton" Content="Azul" HorizontalAlignment="Left" Margin="512,29,0,0" VerticalAlignment="Top" GroupName="Colores" Checked="AzulRadioButtonChecked" Unchecked="AzulRadioButtonUnchecked"/>
+        <RadioButton x:Name="RojoRadioButton" Content="Rojo" HorizontalAlignment="Left" Margin="512,66,0,0" VerticalAlignment="Top" GroupName="Colores" Checked="RojoRadioButtonChecked" Unchecked="RojoRadioButtonUnchecked"/>
+        <RadioButton x:Name="VerdeRadioButton" Content="Verde" HorizontalAlignment="Left" Margin="512,101,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.558,2.6" GroupName="Colores" Checked="VerdeRadioButtonChecked" Unchecked="VerdeRadioButtonUnchecked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="441,68,0,0" TextWrapping="Wrap" Text="Colores:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="CajaTextoOutputTextBox" HorizontalAlignment="Left" Height="43" Margin="28,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" IsEnabled="False" Background="#FF4FD311" TextTrimming="CharacterEllipsis" />
+
+    </Grid>
+</Window>
