@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_FormatoTexto"
         mc:Ignorable="d"
-        Title="MainWindow" Height="234.073" Width="604.032">
+        Title="Formato Texto" Height="234.073" Width="604.032" Icon="Assets/96.ico">
     <Grid>
         <TextBox x:Name="CajaTextoInputTextBox" HorizontalAlignment="Left" Height="76" Margin="28,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" TextChanged="CajaTextoInputTextBoxChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top"/>
